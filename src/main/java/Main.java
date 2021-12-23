@@ -9,11 +9,13 @@ public class Main {
 
 
 
-        List<String> arr1 = Arrays.asList("abc", "def","gij");
+        List<String> arr1 = Arrays.asList("abac", "df","gij");
 
         System.out.println(FlattingTask.flatting(arr1));
 
 
         System.out.println(FizzBuzzTask.fizzBuzzIt());
+
+        System.out.println(GroupWordsTask.groupIt(arr1));
     }
 }
